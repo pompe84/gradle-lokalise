@@ -21,7 +21,7 @@ class LokalisePlugin : Plugin<Project> {
             .apply {
                 configure {
                     it.inputDirectory.set(basePlugin.extractTask.flatMap { it.outputDirectory })
-                    it.outputDirectory.set(File(project.projectDir, "src/main/res/"))
+                    it.outputDirectory.set(File(project.projectDir, "src/"))
                 }
             }
 

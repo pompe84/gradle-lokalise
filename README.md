@@ -11,5 +11,10 @@ lokalise {
     id "project_id"
     token "api_token"
     indentation "default" // 1sp, 2sp, 3sp, 4sp, 5sp, 6sp, 7sp, 8sp and tab
+    exportEmptyAs "skip"
+    filterData "translated", "nonhidden"
+    filterLangs "en", "es", "fr", "pt", "pt_BR"
+    includeComments = true
+    replaceBreaks = true
 }
 ```
